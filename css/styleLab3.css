@@ -1,0 +1,217 @@
+#title {
+    /*background-color:#00bcd4;*/
+    background-image: linear-gradient(to right, #277BC0, #8edef4);
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: 1.5;
+}
+h3 {
+    font-family: 'Libre Franklin';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*nav bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Pangolin';
+    font-size: 2.5rem;
+    color: white !important;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/*download buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.btn-dark {
+    background-color: black;
+}
+
+.btn-dark:hover {
+    background-color: #343a40;
+}
+
+
+/*title image*/
+.title-image {
+    width: 50%;
+    transform: rotate(20deg);
+}
+
+
+/*features*/
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-size: 2rem;
+}
+
+.feature-box p {
+    font-size: 1.25rem;
+}
+
+.icon {
+    color: #f18a1d;
+    margin-bottom: 1rem;
+    font-size: 4.5rem !important;
+}
+
+.icon:hover {
+    color: #8edef4;
+}
+
+/*testimonials section*/
+#testimonials {
+    text-align: center;
+    background-color: #f18a1d;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #f7ab39;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: black;
+    font-size: 2.25rem;
+}
+
+#pricing > p {
+    font-size: 1.5rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-header h3 {
+    margin-bottom: 0;
+}
+
+.card-body {
+    position: relative;
+    padding-bottom: 90px;
+}
+
+.card-body .button {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.button .btn {
+    width: 100%;
+}
+
+.card-body h2 {
+    color: black;
+}
+
+/*call to action*/
+
+#cta {
+    background-color: #f7ab39;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'PT Serif Caption';
+    font-weight: bold;
+    font-size: 3.25rem;
+    line-height: 1.5;
+}
+
+/*footer*/
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/*media query*/ 
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
